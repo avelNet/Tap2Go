@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tap<span class="logo-2">2</span>Go — Больше заказов. Без усилий.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav id="mainNav">
+  <div class="nav-logo">Tap<span class="logo-2">2</span>Go<sup>®</sup></div>
+  <ul class="nav-links">
+    <li><a href="#how">Как работает</a></li>
+    <li><a href="#features">Возможности</a></li>
+    <li><a href="#pricing">Цены</a></li>
+  </ul>
+  <button class="nav-cta" onclick="document.getElementById('pricing').scrollIntoView({behavior:'smooth'})">Подключить</button>
+</nav>
+
+<!-- ── HERO ── -->
+<section class="hero">
+  <div class="hero-left">
+    <div class="hero-eyebrow">NFC-платформа для бизнеса</div>
+    <h1 class="hero-title">
+      Гость<br>заказывает.<br>
+      <em>Сам.</em>
+    </h1>
+    <p class="hero-sub">
+      NFC-метка на столе. Телефон — меню. Персонал уведомлён мгновенно. Средний чек растёт без дополнительных усилий.
+    </p>
+    <div class="hero-actions">
+      <a href="#pricing" class="btn-primary">Начать за 1 000 ₽</a>
+      <a href="#how" class="btn-ghost">Как это работает</a>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <div class="hero-badge-2">
+      <div class="hero-badge-label">Загрузка</div>
+      <div class="hero-badge-value">&lt; 1 сек</div>
+      <div class="hero-badge-sub">после касания</div>
+    </div>
+
+    <div class="hero-phone-wrap">
+      <div class="hero-phone">
+        <div class="hero-phone-notch"></div>
+        <div class="hero-phone-screen">
+          <div class="phone-header">
+            <div class="phone-brand">Tap<span class="logo-2">2</span>Go</div>
+            <div class="phone-venue">Кальянная Туман</div>
+            <div class="phone-spot">Стол #7 · VIP зона</div>
+          </div>
+          <div class="phone-divider"></div>
+          <div class="phone-section-label">Меню</div>
+          <div class="phone-item">
+            <div class="phone-item-left">
+              <span class="phone-item-name">Кальян — фруктовый</span>
+              <span class="phone-item-cat">Кальян</span>
+            </div>
+            <span class="phone-item-price">1 200 ₽</span>
+            <div class="phone-item-add">+</div>
+          </div>
+          <div class="phone-item">
+            <div class="phone-item-left">
+              <span class="phone-item-name">Угли — замена</span>
+              <span class="phone-item-cat">Сервис</span>
+            </div>
+            <span class="phone-item-price">200 ₽</span>
+            <div class="phone-item-add">+</div>
+          </div>
+          <div class="phone-item">
+            <div class="phone-item-left">
+              <span class="phone-item-name">Лимонад домашний</span>
+              <span class="phone-item-cat">Напитки</span>
+            </div>
+            <span class="phone-item-price">350 ₽</span>
+            <div class="phone-item-add">+</div>
+          </div>
+          <div class="phone-item">
+            <div class="phone-item-left">
+              <span class="phone-item-name">Снеки ассорти</span>
+              <span class="phone-item-cat">Закуски</span>
+            </div>
+            <span class="phone-item-price">290 ₽</span>
+            <div class="phone-item-add">+</div>
+          </div>
+          <div class="phone-cta-bar">Вызвать персонал</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-badge">
+      <div class="hero-badge-label">Доп. выручка</div>
+      <div class="hero-badge-value">+35%</div>
+      <div class="hero-badge-sub">средний чек</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── TICKER ── -->
+<div class="ticker">
+  <div class="ticker-inner" id="tickerInner">
+    <span class="ticker-item">Лан-центры <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Кальянные <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Крафтовые пабы <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Антикафе <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Боулинг <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Бильярд <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Zero install <span class="ticker-dot"></span></span>
+    <span class="ticker-item">NFC-технология <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Push-уведомления <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Аналитика выручки <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Лан-центры <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Кальянные <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Крафтовые пабы <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Антикафе <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Боулинг <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Бильярд <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Zero install <span class="ticker-dot"></span></span>
+    <span class="ticker-item">NFC-технология <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Push-уведомления <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Аналитика выручки <span class="ticker-dot"></span></span>
+  </div>
+</div>
+
+<!-- ── PHONE SCENE SECTION ── -->
+<div id="how" class="phone-scene-section" style="height: 400vh; position: relative;">
+  <div class="phone-scene-sticky" id="phoneSceneSticky">
+
+    <!-- Left: step text -->
+    <div class="ps-left" style="position:relative; min-height:200px;">
+      <div class="ps-step on" id="pss0">
+        <div class="ps-num">01 — Аппаратная часть</div>
+        <h2 class="ps-title">Метка<br>на столе.<br><em>Секунда.</em></h2>
+        <p class="ps-body">Небольшая NFC-наклейка крепится на любую поверхность. Никакого оборудования, проводов и настроек. Работает с любым современным смартфоном.</p>
+      </div>
+      <div class="ps-step" id="pss1">
+        <div class="ps-num">02 — Клиентский интерфейс</div>
+        <h2 class="ps-title">Коснулся —<br><em>открылось.</em></h2>
+        <p class="ps-body">Браузер открывает ваш брендированный интерфейс мгновенно. Без приложений. Без регистрации. Без трения.</p>
+      </div>
+      <div class="ps-step" id="pss2">
+        <div class="ps-num">03 — Заказ</div>
+        <h2 class="ps-title">Меню<br><em>открыто.</em></h2>
+        <p class="ps-body">Гость выбирает позиции, оформляет заказ, вызывает персонал — всё со своего телефона. Push-уведомление мгновенно.</p>
+      </div>
+      <div class="ps-step" id="pss3">
+        <div class="ps-num">04 — Результат</div>
+        <h2 class="ps-title">Чек<br><em>вырос.</em></h2>
+        <p class="ps-body">Система показывает сколько дополнительной выручки она принесла за день, неделю, месяц. Цифры убеждают лучше слов.</p>
+      </div>
+    </div>
+
+    <!-- Center: phone mockup -->
+    <div class="ps-phone-wrap">
+      <div class="ps-phone" id="psPhone">
+        <div class="ps-notch"></div>
+        <div class="ps-screen">
+
+          <!-- Layer 0: NFC tap -->
+          <div class="ps-layer on" id="psl0" style="align-items:center; justify-content:center;">
+            <div class="ps-nfc-outer">
+              <div class="ps-nfc-mid">
+                <div class="ps-nfc-inner">
+                  <div class="ps-nfc-dot"></div>
+                </div>
+              </div>
+            </div>
+            <div class="ps-nfc-label">Tap²Go · NFC</div>
+          </div>
+
+          <!-- Layer 1: boot -->
+          <div class="ps-layer" id="psl1" style="align-items:center; justify-content:center; gap:0.8rem;">
+            <div class="ps-boot-logo">Tap²Go</div>
+            <div class="ps-boot-bar-wrap">
+              <div class="ps-boot-bar" id="psBar"></div>
+            </div>
+            <div class="ps-boot-text">Загрузка интерфейса...</div>
+          </div>
+
+          <!-- Layer 2: menu -->
+          <div class="ps-layer" id="psl2" style="flex-direction:column; padding-top:44px;">
+            <div class="ps-menu-brand">Tap²Go</div>
+            <div class="ps-menu-venue">Кальянная Туман</div>
+            <div class="ps-menu-spot">Стол #7 · VIP зона</div>
+            <div class="ps-menu-divider"></div>
+            <div class="ps-menu-label">Меню</div>
+            <div class="ps-menu-item">
+              <span class="ps-item-name">Кальян фруктовый</span>
+              <span class="ps-item-price">1 200 ₽</span>
+              <div class="ps-item-add">+</div>
+            </div>
+            <div class="ps-menu-item">
+              <span class="ps-item-name">Лимонад домашний</span>
+              <span class="ps-item-price">350 ₽</span>
+              <div class="ps-item-add">+</div>
+            </div>
+            <div class="ps-menu-item">
+              <span class="ps-item-name">Снеки ассорти</span>
+              <span class="ps-item-price">290 ₽</span>
+              <div class="ps-item-add">+</div>
+            </div>
+            <div class="ps-menu-cta">Вызвать персонал</div>
+          </div>
+
+          <!-- Layer 3: done -->
+          <div class="ps-layer" id="psl3" style="align-items:center; justify-content:center; gap:0.6rem;">
+            <div class="ps-done-check">✓</div>
+            <div class="ps-done-title">Заказ<br>принят</div>
+            <div class="ps-done-sub">Персонал уведомлён</div>
+            <div class="ps-done-row">
+              <div class="ps-done-num">
+                <div class="ps-done-val">3</div>
+                <div class="ps-done-lbl">позиции</div>
+              </div>
+              <div class="ps-done-num">
+                <div class="ps-done-val accent">1 840</div>
+                <div class="ps-done-lbl">₽ в чеке</div>
+              </div>
+              <div class="ps-done-num">
+                <div class="ps-done-val">&lt;1с</div>
+                <div class="ps-done-lbl">доставка</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="ps-progress" id="psProgress"></div>
+      </div>
+    </div>
+
+    <!-- Right: stats -->
+    <div class="ps-right" style="position:relative; min-height:200px;">
+      <div class="ps-stat on" id="psr0">
+        <div class="ps-stat-val"><em>NFC</em></div>
+        <div class="ps-stat-label">без приложений и регистрации</div>
+      </div>
+      <div class="ps-stat" id="psr1">
+        <div class="ps-stat-val">&lt;<em>1</em>с</div>
+        <div class="ps-stat-label">время загрузки интерфейса</div>
+      </div>
+      <div class="ps-stat" id="psr2">
+        <div class="ps-stat-val">∞</div>
+        <div class="ps-stat-label">столов и сотрудников</div>
+      </div>
+      <div class="ps-stat" id="psr3">
+        <div class="ps-stat-val">+<em>35</em>%</div>
+        <div class="ps-stat-label">к среднему чеку</div>
+      </div>
+    </div>
+
+    <!-- Dots -->
+    <div class="ps-dots">
+      <div class="ps-dot on" id="psd0"></div>
+      <div class="ps-dot" id="psd1"></div>
+      <div class="ps-dot" id="psd2"></div>
+      <div class="ps-dot" id="psd3"></div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ── STATS ── -->
+<section class="stats-section">
+  <div class="stats-left fade-in">
+    <div class="stats-eyebrow">Результаты</div>
+    <h2 class="stats-title">Цифры которые говорят сами за себя</h2>
+    <p class="stats-body">Система окупается в первые недели работы. Гости заказывают больше когда могут сделать это в удобный момент — не ожидая, не стесняясь, не отвлекая персонала.</p>
+  </div>
+  <div class="stats-right fade-in" style="transition-delay:0.15s">
+    <div class="stat-block">
+      <div class="stat-num">+35<sup>%</sup></div>
+      <div class="stat-label">рост среднего чека у клиентов платформы</div>
+    </div>
+    <div class="stat-block">
+      <div class="stat-num">&lt;1<sup>с</sup></div>
+      <div class="stat-label">время открытия интерфейса после касания метки</div>
+    </div>
+    <div class="stat-block">
+      <div class="stat-num">0₽</div>
+      <div class="stat-label">стоимость push-уведомлений для сотрудников</div>
+    </div>
+    <div class="stat-block">
+      <div class="stat-num">∞</div>
+      <div class="stat-label">столов и сотрудников на полном тарифе</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FEATURES ── -->
+<section class="features-section" id="features">
+  <div class="features-inner">
+    <div class="features-header fade-in">
+      <div>
+        <div class="feat-eyebrow">Возможности</div>
+        <h2 class="feat-title">Всё что нужно — ничего лишнего</h2>
+      </div>
+      <p class="feat-desc">Система настраивается под любой бизнес с высоким трафиком. Включаете только то что нужно вашему заведению.</p>
+    </div>
+    <div class="features-list">
+      <div class="feat-item fade-in">
+        <div class="feat-item-num">01</div>
+        <div class="feat-item-name">Zero-install UX</div>
+        <p class="feat-item-desc">Никаких приложений и регистраций. Гость подносит телефон — интерфейс уже открыт.</p>
+        <span class="feat-item-tag">NFC</span>
+      </div>
+      <div class="feat-item fade-in" style="transition-delay:0.08s">
+        <div class="feat-item-num">02</div>
+        <div class="feat-item-name">Ваш брендинг</div>
+        <p class="feat-item-desc">Цвет, логотип, тексты кнопок — всё под ваше заведение. Настройка за 5 минут.</p>
+        <span class="feat-item-tag">Кастом</span>
+      </div>
+      <div class="feat-item fade-in" style="transition-delay:0.16s">
+        <div class="feat-item-num">03</div>
+        <div class="feat-item-name">Push для персонала</div>
+        <p class="feat-item-desc">Сотрудники получают уведомления на личный телефон. Планшеты не нужны.</p>
+        <span class="feat-item-tag">Бесплатно</span>
+      </div>
+      <div class="feat-item fade-in" style="transition-delay:0.06s">
+        <div class="feat-item-num">04</div>
+        <div class="feat-item-name">Аналитика выручки</div>
+        <p class="feat-item-desc">Сколько принесла система сегодня. В какие часы больше заказов. По каким позициям.</p>
+        <span class="feat-item-tag">Данные</span>
+      </div>
+      <div class="feat-item fade-in" style="transition-delay:0.14s">
+        <div class="feat-item-num">05</div>
+        <div class="feat-item-name">Перехват отзывов</div>
+        <p class="feat-item-desc">Оценка 4-5 → Яндекс.Карты. Оценка 1-3 → к вам. Плохие отзывы не уходят в публику.</p>
+        <span class="feat-item-tag">Репутация</span>
+      </div>
+      <div class="feat-item fade-in" style="transition-delay:0.22s">
+        <div class="feat-item-num">06</div>
+        <div class="feat-item-name">Сети и филиалы</div>
+        <p class="feat-item-desc">Один аккаунт — несколько точек. Владелец видит всё, управляющий — свой филиал.</p>
+        <span class="feat-item-tag">Масштаб</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── PRICING ── -->
+<section class="pricing-section" id="pricing">
+  <div class="pricing-header fade-in">
+    <div class="stats-eyebrow">Цены</div>
+    <h2 class="stats-title">Прозрачно.<br>NFC-метки включены.</h2>
+  </div>
+  <div class="pricing-grid">
+    <div class="pricing-card fade-in">
+      <div class="pricing-plan">Тестовый период</div>
+      <div class="pricing-price">1 000 <span>₽/мес</span></div>
+      <div class="pricing-period">Первые 2–3 месяца · до 5 столов</div>
+      <div class="pricing-divider"></div>
+      <ul class="pricing-features">
+        <li>NFC-метки включены</li>
+        <li>Полный функционал без ограничений</li>
+        <li>Push-уведомления сотрудникам</li>
+        <li>Меню и приём заказов</li>
+        <li>Аналитика выручки</li>
+        <li>Перехват негативных отзывов</li>
+      </ul>
+      <button class="pricing-btn outline">Начать тест</button>
+    </div>
+    <div class="pricing-card featured fade-in" style="transition-delay:0.12s">
+      <div class="pricing-featured-badge">Популярный</div>
+      <div class="pricing-plan">Полный тариф</div>
+      <div class="pricing-price">5 000 <span>₽/мес</span></div>
+      <div class="pricing-period">Фиксированно · без скрытых платежей</div>
+      <div class="pricing-divider"></div>
+      <ul class="pricing-features">
+        <li>NFC-метки включены</li>
+        <li>Неограниченно столов</li>
+        <li>Неограниченно сотрудников</li>
+        <li>Несколько филиалов в одном аккаунте</li>
+        <li>Приоритетная поддержка при внедрении</li>
+        <li>Всё из тестового тарифа</li>
+      </ul>
+      <button class="pricing-btn primary">Подключить заведение</button>
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA ── -->
+<section class="cta-section">
+  <div class="cta-bg-text">TAP</div>
+  <div class="cta-inner">
+    <div class="cta-eyebrow">Начать просто</div>
+    <h2 class="cta-title">Первый месяц —<br><em>1 000 ₽.</em></h2>
+    <p class="cta-sub">Метки в комплекте. Настройка за день. Результат — с первой недели.</p>
+    <button class="btn-primary" style="font-size:1rem; padding: 1rem 2.5rem;">Связаться с нами</button>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-logo">Tap<span class="logo-2">2</span>Go<sup>®</sup></div>
+  <div class="footer-copy">© 2026 Tap<span class="logo-2">2</span>Go. Все права защищены.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
