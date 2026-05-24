@@ -1,5 +1,7 @@
-
-
+from datetime import datetime
+from backend.app.models.base import Base
+from sqlalchemy import String, Boolean, ForeignKey, func
+from sqlalchemy.orm import Mapped, mapped_column, relationship                                  
 
 class Company(Base):
     __tablename__ = "companies"
